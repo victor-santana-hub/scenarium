@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <!-- PAGE INFO -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scenarium</title>
+
+    <!-- ICONS -->
+    <link rel="stylesheet" href="assets/fonts/style.css" />
+
+    <!-- SWIPER -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- STYLES CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&family=Audiowide:wght@400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Cabeçalho (Título e menu) -->
+    <header id="header">
+      <nav class="container">
+        <a class="logo" href="#">Scenarium</a>
+        <!-- menu -->
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title" href="#home">Home</a></li>
+            <li><a class="title" href="#about">Sobre</a></li>
+            <li><a class="title" href="#services">Serviços</a></li>
+            <li><a class="title" href="#testimonials">Depoimentos</a></li>
+            <li><a class="title" href="#contact">Contato</a></li>
+          </ul>
+        </div>
+
+        <!-- ABRE/FECHA MENU -->
+        <div class="toggle icon-menu"></div>
+        <div class="toggle icon-close"></div>
+      </nav>
+    </header>
+
+    <!-- Conteúdo em si, separado por secções -->
+    <main>
+      <!-- Primeira secção da página >HOME< -->
+      <section class="section" id="home">
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="assets/pictures/home.png"
+              alt="Logo Scenarium"
+            />
+          </div>
+          <div class="text">
+            <p>
+              Personalize seus ambientes com móveis especiais de alto padrão. Fabricados sob medida, 
+              com acabamento e matéria prima de alta qualidade.
+            </p>
+            <a
+              class="button"
+              href="https://api.whatsapp.com/send?phone=+5547992638232&text=Olá! Gostaria de fazer um orçamento, por favor."
+              target="_blank"
+              >Faça um Orçamento</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+
+      <!-- Segunda secção da página >ABOUT< -->
+      <section class="section" id="about">
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="assets/pictures/about.png"
+              alt="Marceneiro e ferramentas"
+            />
+          </div>
+          <div class="text">
+            <h2 class="title">Sobre a Scenarium</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta
+              repellendus optio voluptatum quidem, nobis incidunt ipsam quod
+              quisquam natus atque enim eligendi aliquid perspiciatis voluptas
+              labore provident dolor? Consequuntur, debitis.
+            </p>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+              fugiat praesentium ipsam dolores ab, reiciendis voluptatem!
+              Sapiente ducimus dolores ab cum aspernatur! Quas ullam, tenetur
+              quo ex iste omnis laborum.
+            </p>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+              quisquam et, a, odit voluptatem dolore ipsa consectetur, adipisci
+              modi ipsum atque sint nesciunt pariatur dicta architecto numquam
+              dignissimos sit labore!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-2"></div>
+
+      <!-- Terceira secção da página >SERVICES< -->
+      <section class="section" id="services">
+        <div class="container grid">
+          <header>
+            <h2 class="title">Nossos Serviços</h2>
+            <p class="subtitle">
+              Há mais de 10 a <strong>Scenarium</strong> entrega serviços de qualidade e produtos únicos, 
+              trazendo à vida os sonhos de seus mais de 500 clientes.
+            </p>
+          </header>
+          <div class="cards grid">
+            <div class="card">
+              <img src="assets/pictures/cozinha1.jpg" alt="Cozinha Planejada">
+              <h3 class="title">Ambientes Planejados</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
+                odit cum incidunt vel expedita voluptatum earum repellendus
+                quisquam voluptatibus quam! Nobis sunt sapiente.
+              </p>
+            </div>
+            <div class="card">
+              <img src="assets/pictures/armario.jpg" alt="Rack Para Televisão">
+              <h3 class="title">Móveis Sob Medida</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
+                odit cum incidunt vel expedita voluptatum earum repellendus
+                quisquam voluptatibus quam! Nobis sunt sapiente.
+              </p>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+
+      <!-- Quarta secção da página >TESTIMONIALS< -->
+      <section class="section" id="testimonials">
+        <div class="container">
+          <header>
+            <h2 class="title">Depoimentos dos nossos clientes</h2>
+          </header>
+          <div class="testimonials swiper-container">
+            <div class="swiper-wrapper">
+              <!-- ========= Depoimento 01 ========== -->
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo; </span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ullam, modi. Reprehenderit magnam necessitatibus ad ipsa
+                    dolorum sint, tempore suscipit.
+                  </p>
+                  <cite>
+                    <img
+                      src="assets/pictures/alessandra.jpg"
+                      alt="Foto de Alessandra Christen"
+                    />
+                    Alessandra Christen
+                  </cite>
+                </blockquote>
+              </div>
+              <!-- ========= Depoimento 02 ========== -->
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo; </span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ullam, modi. Reprehenderit magnam necessitatibus ad ipsa
+                    dolorum sint, tempore suscipit.
+                  </p>
+                  <cite>
+                    <img
+                      src="assets/pictures/victor.jpg"
+                      alt="Foto de Victor Santana"
+                    />
+                    Victor Santana
+                  </cite>
+                </blockquote>
+              </div>
+              <!-- ========= Depoimento 03 ========== -->
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo; </span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ullam, modi. Reprehenderit magnam necessitatibus ad ipsa
+                    dolorum sint, tempore suscipit.
+                  </p>
+                  <cite>
+                    <img
+                      src="assets/pictures/arthur.jpg"
+                      alt="Foto de Arthur Sacchelli"
+                    />
+                    Arthur Sacchelli
+                  </cite>
+                </blockquote>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-2"></div>
+
+      <!-- Quinta secção da página >CONTACT< -->
+      <section class="section" id="contact">
+        <div class="container grid">
+          <div class="text">
+            <h2 class="title">Entre em contato com a gente</h2>
+            <p>
+              Entre em contato com a <strong>Scenarium</strong>. Queremos tirar
+              suas dúvidas, ouvir suas críticas e sugestões.
+            </p>
+            <a
+              href="https://api.whatsapp.com/send?phone=+5547992638232&text=Olá! Gostaria de fazer um orçamento, por favor."
+              target="_blank"
+              class="button"
+            >
+              <i class="icon-whatsapp"></i>Entrar em contato
+            </a>
+          </div>
+
+          <div class="links">
+            <ul class="grid">
+              <li>
+                <i class="icon-phone"></i>
+                47 99263-8232
+              </li>
+              <li>
+                <i class="icon-map-pin"></i>
+                Vila Nova - Joinville/SC
+              </li>
+              <li>
+                <i class="icon-mail"></i>
+                marcenaria.scenarium@gmail.com
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+    </main>
+
+    <!-- FOOTER da página -->
+    <footer class="section">
+      <div class="container grid">
+        <div class="brand">
+          <a href="#home" class="logo logo-alt">Scenarium</a>
+          <p>©2021 Scenarium.</p>
+          <p>Todos os direitos reservados.</p>
+        </div>
+        <div class="social grid">
+          <a target="_blank" href="https://www.instagram.com/easyhouse.auto/"
+            ><i class="icon-instagram"></i
+          ></a>
+          <a target="_blank" href="https://www.facebook.com/Scenarium-M%C3%B3veis-Planejados-822768764771395/?__tn__=-UC*F"
+            ><i class="icon-facebook"></i
+          ></a>
+          <a target="_blank" href="https://www.youtube.com/"
+            ><i class="icon-youtube"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Botão BackToTop -->
+    <a href="#home" class="back-to-top">
+      <i class="icon-arrow-up"></i>
+    </a>
+
+    <!-- SWIPER -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- SCROLL REVEAL -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- MAIN.JS -->
+    <script src="main.js"></script>
+  </body>
+</html>
